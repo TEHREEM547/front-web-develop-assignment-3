@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    
+    
+    
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ 
+html{
+    scroll-behavior: smooth;
+}
+ /*navbar*/
+ .navbar{
+    background-color: rgba(100, 58, 48, 0.479);
+    height: 90px;
+    display: flex;
+    text-decoration: none;
+    padding: 0 30px;
+    align-items: center;
+    position: relative;
+ }
+ 
+/*logo*/
+  .logo{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+   
+  }
+    
+  /*nav-links*/
+ .nav-links{
+    display: flex;
+    align-items: center;
+   text-decoration: none;
+   justify-content: center;
+   gap: 30px;
+   margin-left: auto;
+   
+ }
+
+ /*menu*/
+   
+.menu{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+ 
+/*booking-btn*/
+.booking-btn{
+    background-color:rgb(136, 61, 61) ;
+    margin-left: 50px;
+    border: 2px solid rgba(238, 241, 194, 0.404);
+    border-radius: 25px;
+    padding: 10px 20px ;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+   cursor: pointer;
+ display: inline-block;
+ transition: 0.5;
+ transition-delay: 0.2s;
+ font-weight: bold;
+ 
+}
+ /*btn hover*/
+ .booking-btn:hover{
+    background-color:rgb(136, 61, 61);
+    color: rgb(20, 20, 20);
+    border-color: rgba(238, 241, 194, 0.404);
+    transform: scale(1.05);
+
+ }
+
+  /* hero secction*/
+  /* banner*/
+  .banner{
+
+    height: 700;
+    width: 100%;
+  }
+   
+  /*experience*/
+  .experience{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 20px ;
+    background-color:whitesmoke ;
+    color: black;
+    text-align: center;
+  }
+  .experience-box{
+     padding: 20px;
+     width: 25%;;
+     background-color: rgb(228, 211, 211);
+     color: blue;
+     border-radius: 20px;
+    box-shadow:8px solid rgb(177, 114, 177);
+  }
+  .experience-box h2{
+    font-size: 30px;
+    color: rgb(136, 61, 61);
+    margin-bottom: 10px;
+  }
+  .experience-box h3{
+    color: rgb(20, 19, 20);
+  }
+  .experience-box p{
+    color: #666;
+    font-size: 14px;
+
+  }
+  .experience-box:hover{
+    background-color:rgb(122, 52, 52);;
+    color: rgb(20, 20, 20);
+    border-color: rgba(246, 253, 152, 0.404);
+    transform: scale(1.05);
+
+  }
+  /*why choose us section*/
+  .why-choose{
+    padding: 60px 8%;
+    background-color: #fff8f8;
+  }
+  .choose-heading{
+    text-align: center;
+    margin-bottom: 35px;
+
+  }
+  .choose-heading p{
+    color: #a35e75;
+     letter-spacing: 3px;
+     font-size: 13px;
+  }
+  .choose-heading h2{
+    font-size: 32px;
+    color: #573744;
+    margin: 10px 0;
+  }
+
+
+     .choose-heading span{
+      color: #806a72;
+      font-size: 15px;
+     }
+      
+      .choose-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+      }
+
+     .choose-card{
+      background-color: white;
+      padding: 30px 15px;
+      text-align: center;
+      box-shadow: 09 4px 15px solid #ead8de;
+      transition: 0.3s;
+     }
+
+      .choose-card :hover{
+        transform: translateY( -8px);
+        box-shadow: o 8px 20px #d8b6c2;
+      }
+
+        .choose-icon{
+          font-size: 38px;
+          color: #a35e75;
+          margin-bottom: 10px;
+        }
+       .choose-card h3{
+        color: #806a72;
+        font-size: 18px;
+       }
+       .choose-card p{
+        color: #806a72;
+        font-size: 14px;
+        line-height: 1.7;
+       }
+  
+
+/* Special Deals Section */
+.special-deals {
+  background-color: #fff0f3;
+  padding: 60px 8%;
+  text-align: center;
+}
+
+/* Deals Heading */
+.deals-heading p {
+  color: #a35e75;
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+.deals-heading h2 {
+  color: #a35e75;
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+.deals-heading span {
+  color: #573744;
+  font-size: 16px;
+}
+
+/* Deals Container */
+.deals-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+/* Deal Cards */
+.deal-card {
+  background-color: white;
+  padding: 30px 20px;
+  width: 240px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #00000015;
+  transition: 0.3s;
+}
+
+.deal-card:hover {
+  transform: translateY(-8px);
+}
+
+.deal-card h3 {
+  color: #a35e75;
+  font-size: 23px;
+}
+
+.deal-card p {
+  color: #573744;
+  line-height: 1.7;
+}
+
+.deal-card h2 {
+  color: #a35e75;
+  margin: 20px 0;
+}
+
+.deal-card a {
+  display: inline-block;
+  background-color: #a35e75;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 35px;
+}
+
+.deal-card a:hover {
+  background-color: #573744;
+}
+
+
+
+
+/* Footer Section */
+.footer {
+  background-color: #573744;
+  color: white;
+  padding: 50px 8% 0;
+}
+
+/* Footer Container */
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding-bottom: 35px;
+}
+
+/* Footer Headings */
+.footer-box h2 {
+  color: #ffb6c8;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.footer-box h3 {
+  color: #ffb6c8;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer Text */
+.footer-box p {
+  color: #f5e7ec;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Footer Links */
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 12px;
+}
+
+.footer-box ul li a {
+  color: #f5e7ec;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-box ul li a:hover {
+  color: #ffb6c8;
+  padding-left: 5px;
+}
+
+/* Copyright */
+.footer-bottom {
+  border-top: 1px solid #896b79;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  color: #f5e7ec;
+  font-size: 13px;
+  margin: 0;
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+
+  .footer-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+  }
+
+  .deals-container,
+  .reviews-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .deal-card,
+  .review-card {
+      width: 100%;
+      max-width: 320px;
+      box-sizing: border-box;
+  }
+
+  .gallery-container {
+      grid-template-columns: 1fr;
+  }
+
+  .heading h2,
+  .deals-heading h2,
+  .reviews-heading h2 {
+      font-size: 26px;
+  }
+
+  .special-deals,
+  .beauty-gallery {
+      padding: 40px 5%;
+  }
+
+}

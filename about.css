@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /*navbar*/
+ .navbar{
+    background-color: rgba(100, 58, 48, 0.479);
+    height: 90px;
+    display: flex;
+    text-decoration: none;
+    padding: 0 30px;
+    align-items: center;
+    position: relative;
+ }
+ 
+/*logo*/
+  .logo{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+   
+  }
+    
+  /*nav-links*/
+ .nav-links{
+    display: flex;
+    align-items: center;
+   text-decoration: none;
+   justify-content: center;
+   gap: 30px;
+   margin-left: auto;
+   
+ }
+
+ /*menu*/
+   
+.menu{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+ 
+/*booking-btn*/
+.booking-btn{
+    background-color:rgb(136, 61, 61) ;
+    margin-left: 50px;
+    border: 2px solid rgba(238, 241, 194, 0.404);
+    border-radius: 25px;
+    padding: 10px 20px ;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+   cursor: pointer;
+ display: inline-block;
+ transition: 0.5;
+ transition-delay: 0.2s;
+ font-weight: bold;
+ 
+}
+ /*btn hover*/
+ .booking-btn:hover{
+    background-color:rgb(136, 61, 61);
+    color: rgb(20, 20, 20);
+    border-color: rgba(238, 241, 194, 0.404);
+    transform: scale(1.05);
+
+ }
+
+
+/* About Heading */
+.about-heading {
+    background-color: #fff0f3;
+    padding: 50px 2%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Heading */
+.heading h2 {
+    color: #a35e75;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.heading p {
+    color: #573744;
+    font-size: 16px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* About Us Section */
+.aboutus {
+    width: 100%;
+    min-height: 500px;
+
+    background-image: url("images/background about section.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+    padding: 60px 8%;
+}
+
+/* Left Side Content */
+.about-content {
+    width: 48%;
+    text-align: left;
+}
+
+/* Heading */
+.about-content h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+/* Small Line */
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #222;
+    margin-bottom: 22px;
+}
+
+/* Paragraph */
+.about-content p {
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 15px;
+}
+
+/* Appointment Button */
+.about-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 14px 22px;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    background-color: #a35e75;
+}
+
+

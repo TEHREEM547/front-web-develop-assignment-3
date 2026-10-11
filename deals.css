@@ -1,0 +1,237 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #fffafa;
+    color: #573744;
+}
+ /*navbar*/
+ .navbar{
+    background-color: rgba(100, 58, 48, 0.479);
+    height: 90px;
+    display: flex;
+    text-decoration: none;
+    padding: 0 30px;
+    align-items: center;
+    position: relative;
+ }
+ 
+/*logo*/
+  .logo{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+   
+  }
+    
+  /*nav-links*/
+ .nav-links{
+    display: flex;
+    align-items: center;
+   text-decoration: none;
+   justify-content: center;
+   gap: 30px;
+   margin-left: auto;
+   
+ }
+
+ /*menu*/
+   
+.menu{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+ 
+/*booking-btn*/
+.booking-btn{
+    background-color:rgb(136, 61, 61) ;
+    margin-left: 50px;
+    border: 2px solid rgba(238, 241, 194, 0.404);
+    border-radius: 25px;
+    padding: 10px 20px ;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+   cursor: pointer;
+ display: inline-block;
+ transition: 0.5;
+ transition-delay: 0.2s;
+ font-weight: bold;
+ 
+}
+ /*btn hover*/
+ .booking-btn:hover{
+    background-color:rgb(136, 61, 61);
+    color: rgb(20, 20, 20);
+    border-color: rgba(238, 241, 194, 0.404);
+    transform: scale(1.05);
+
+ }
+
+
+/* Deals Heading */
+.deals-heading {
+    text-align: center;
+    padding: 60px 20px 45px;
+    background-color: #fff0f3;
+}
+
+.subtitle {
+    color: #a35e75;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.deals-heading h1 {
+    font-size: 38px;
+    color: #573744;
+    margin-bottom: 18px;
+}
+
+.deals-heading > p:last-child {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Deals Cards */
+.deals-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 55px 6%;
+}
+
+/* Single Card */
+.deal-card {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #f0dce2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(87, 55, 68, 0.10);
+    transition: 0.3s;
+}
+
+.deal-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(87, 55, 68, 0.16);
+}
+
+/* Card Images */
+.deal-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-one {
+    background-image: url("images/imag1.jpg");
+}
+
+.image-two {
+    background-image: url("images/hair.jpg");
+}
+
+.image-three {
+    background-image: url("images/makeup\ deals.jpg");
+}
+
+/* Card Content */
+.deal-content {
+    padding: 25px 22px;
+}
+
+.deal-label {
+    display: inline-block;
+    color: #a35e75;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+.deal-content h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #573744;
+}
+
+.deal-content ul {
+    list-style: none;
+    margin-bottom: 22px;
+}
+
+.deal-content ul li {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #666;
+}
+
+/* Price */
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    color: #a35e75;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.deal-btn {
+    display: block;
+    text-align: center;
+    background-color: #7c4e61;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.deal-btn:hover {
+    background-color: #a35e75;
+}
+
+/* Bottom Section */
+.deal-footer {
+    text-align: center;
+    background-color: #fff0f3;
+    padding: 50px 20px;
+}
+
+.deal-footer h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.deal-footer p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.footer-btn {
+    display: inline-block;
+    padding: 13px 28px;
+    background-color: #573744;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.footer-btn:hover {
+    background-color: #a35e75;
+}
+
